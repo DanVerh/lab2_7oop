@@ -1,0 +1,4 @@
+﻿  UnitTest2.cpp
+     Creating library C:\Programs\С++ Labs\lab2_7oop\Debug\UnitTest2.lib and object C:\Programs\С++ Labs\lab2_7oop\Debug\UnitTest2.exp
+UnitTest2.obj : error LNK2019: unresolved external symbol "public: __thiscall Account::Account(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,double,double)" (??0Account@@QAE@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HNN@Z) referenced in function "public: void __thiscall UnitTest2::UnitTest2::TestMethod1(void)" (?TestMethod1@UnitTest2@1@QAEXXZ)
+C:\Programs\С++ Labs\lab2_7oop\Debug\UnitTest2.dll : fatal error LNK1120: 1 unresolved externals

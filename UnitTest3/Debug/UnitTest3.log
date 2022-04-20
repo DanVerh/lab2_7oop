@@ -1,0 +1,5 @@
+﻿  UnitTest3.cpp
+     Creating library C:\Programs\С++ Labs\lab2_7oop\Debug\UnitTest3.lib and object C:\Programs\С++ Labs\lab2_7oop\Debug\UnitTest3.exp
+UnitTest3.obj : error LNK2019: unresolved external symbol "public: double __thiscall Money::Sum(void)" (?Sum@Money@@QAENXZ) referenced in function "public: void __thiscall UnitTest3::UnitTest3::TestMethod3(void)" (?TestMethod3@UnitTest3@1@QAEXXZ)
+UnitTest3.obj : error LNK2019: unresolved external symbol "public: __thiscall Money::Money(int,int,int,int,int,int,int,int,int,int,int,int,int,int,int)" (??0Money@@QAE@HHHHHHHHHHHHHHH@Z) referenced in function "public: void __thiscall UnitTest3::UnitTest3::TestMethod3(void)" (?TestMethod3@UnitTest3@1@QAEXXZ)
+C:\Programs\С++ Labs\lab2_7oop\Debug\UnitTest3.dll : fatal error LNK1120: 2 unresolved externals

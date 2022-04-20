@@ -13,8 +13,8 @@ namespace UnitTest1
 		TEST_METHOD(TestMethod1)
 		{
 			Account t;
-			t.SetPerc(0.5);
-			double p = t.GetPerc();
+			t.SetNum(0.5);
+			double p = t.GetNum();
 			Assert::AreEqual(0.5, p);
 		}
 	};

@@ -1,5 +1,4 @@
 ﻿  Account.cpp
   Source.cpp
-C:\Programs\С++ Labs\lab2_7oop\lab2_7oop\Source.cpp(36,12): error C2371: 'e': redefinition; different basic types
-C:\Programs\С++ Labs\lab2_7oop\lab2_7oop\Source.cpp(33): message : see declaration of 'e'
   Generating Code...
+  lab2_7oop.vcxproj -> C:\Programs\С++ Labs\lab2_7oop\Debug\lab2_7oop.exe
