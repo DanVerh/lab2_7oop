@@ -147,12 +147,16 @@ Money::operator string() const {
     return ss.str();
 }
 
-double operator + (Money a, Money b) {
-    return a.Sum() + b.Sum();
+Money operator + (Money a, Money b) {
+    double mult = a.Sum() + b.Sum();
+    Money c = doubleMoney(mult);
+    return c;
 }
 
-double operator - (Money a, Money b) {
-    return a.Sum() - b.Sum();
+Money operator - (Money a, Money b) {
+    double mult = a.Sum() - b.Sum();
+    Money c = doubleMoney(mult);
+    return c;
 }
 
 double operator * (Money a, Money b) {

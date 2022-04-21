@@ -55,9 +55,9 @@ public:
 	friend ostream& operator <<(ostream&, Money a);
 	operator string() const;
 
-	friend double operator + (Money a, Money b);
-	friend double operator - (Money a, Money b);
-	friend double operator * (Money a, Money b);
+	friend Money operator + (Money a, Money b);
+	friend Money operator - (Money a, Money b);
+	//friend double operator * (Money a, Money b);
 	friend double operator / (Money a, Money b);
 	friend Money operator *= (Money a, double value);
 	friend Money operator /= (Money a, double value);
